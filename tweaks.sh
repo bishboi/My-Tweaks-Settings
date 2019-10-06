@@ -1,8 +1,4 @@
 #!/bin/bash
-
-#installing make for installing packages
-sudo apt install make
-
 #installing tweak tools
 sudo apt install gnome-tweak-tool
 
@@ -22,7 +18,7 @@ cd .. && rm -rf gnome-tweak-tool
 sudo apt install gnome-shell-extensions
 
 #installing dash to dock
-mv dash-to-dock@micxgx.gmail.com.v64.shell-extension ~/.local/share/gnome-shell/extensions/
+mv dash-to-dock@micxgx.gmail.com ~/.local/share/gnome-shell/extensions/
 
 #setting wallpaper
 mv wallpaper.jpg ~/Pictures/
