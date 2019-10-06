@@ -1,13 +1,7 @@
 #!/bin/bash
 
 #installing tweak tools
-sudo apt-get build-dep gnome-tweak-tool
-git clone git://git.gnome.org/gnome-tweak-tool
-cd gnome-tweak-tool
-./autogen.sh
-make
-make install
-cd .. && rm -rf gnome-tweak-tool
+sudo apt install gnome-tweak-tool
 
 #installing Mc Mojave
 git clone https://github.com/vinceliuice/Mojave-gtk-theme  
