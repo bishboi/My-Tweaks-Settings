@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#installing make for installing packages
+sudo apt install make
+
 #installing tweak tools
 sudo apt install gnome-tweak-tool
 
