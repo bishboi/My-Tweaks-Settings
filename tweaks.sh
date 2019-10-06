@@ -25,4 +25,5 @@ sudo apt install gnome-shell-extensions
 mv dash-to-dock@micxgx.gmail.com.v64.shell-extension ~/.local/share/gnome-shell/extensions/
 
 #setting wallpaper
-gsettings set org.gnome.desktop.background picture-uri wallpaper.jpg
+mv wallpaper.jpg ~/Pictures/
+gsettings set org.gnome.desktop.background picture-uri ~/Pictures/wallpaper.jpg
