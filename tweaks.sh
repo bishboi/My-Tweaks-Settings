@@ -22,8 +22,7 @@ cd .. && rm -rf gnome-tweak-tool
 sudo apt install gnome-shell-extensions
 
 #installing dash to dock
-git clone https://github.com/micheleg/dash-to-dock.git
-cd dash-to-dock
-make
-make install
-cd .. && rm -rf dash-to-dock
+mv dash-to-dock@micxgx.gmail.com.v64.shell-extension ~/.local/share/gnome-shell/extensions/
+
+#setting wallpaper
+gsettings set org.gnome.desktop.background picture-uri wallpaper.jpg
